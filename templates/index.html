@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Robot Car</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+<style>
+table ,td, tr {
+		width: 30%;
+}
+
+</style>
+
+	<body>
+		
+
+		<table style="width:100%; max-width: 500px; height:300px;">
+			<tr>
+				<td>
+					<form action="/1" method="POST">
+						<input style="transform:rotate(0deg);"  type="image" name="direction" src="/static/img/left.svg" value="left" style="float:left; width:80%;margin-left:10px;">
+						</br>
+					</form>
+				</td>
+				<td>
+					<form action="/2" method="POST">
+						<input style="transform:rotate(90deg);"  type="image" name="direction" src="/static/img/left.svg" value="forward" style="float:left; width:80%;margin-left:80px;">
+						</br>
+					</form>
+				</td>
+				<td>
+
+					<form action="/3" method="POST">
+						<input style="transform:rotate(180deg);"  type="image" name="direction" src="/static/img/left.svg" value="right" style="float:left; width:80%;margin-left:80px;">
+						</br>
+					</form>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form action="/4" method="POST">
+						<input type="image" name="direction" src="/static/img/up.svg" value="forward" style=" margin-left:10px; width:80%;">
+						</br>
+					</form>
+				</td>	<td>
+					<form action="/5" method="POST">
+						<input type="image" name="direction" src="/static/img/stop.svg" value="stop" style=" margin-left:0px; width:80%;">
+						</br>
+					</form>
+				</td>
+				<td>
+					<form action="/6" method="POST">
+						<input style="transform:rotate(180deg);margin-left:10px;width:80%;" type="image" name="direction" src="/static/img/up.svg" value="backward" style="margin-left:80px; width:80%;">
+						</br>
+					</form>
+				</td>
+        			
+			</tr>
+		</table>
+
+	</body>
+</html>
